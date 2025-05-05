@@ -68,16 +68,38 @@ p {
     color: #000 !important;
     font-weight: 600;
 }
-
+.liked {
+    color: #ef4444; /* Tailwind's red-500 */
+}
 .bg-fleur {
     background-image: url('images/fleur.png');
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
     background-color: rgba(246,228,197,255);
-    min-height: 300vh;
+    min-height: 250vh;
 }
 .text-outline {
   -webkit-text-stroke: 3px black;
   color: white;
+}
+.vase-container {
+    background-image: url('images/vase.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 0 -20px;
+}
+footer{
+    margin-top: auto;
 }

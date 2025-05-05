@@ -4,5 +4,6 @@
         <h1 class="title-font text-7xl mb-4 font-medium text-gray-900 text-outline">Fleur
         </h1>
         <p class="mb-8 leading-relaxed text-2xl">by Louise Erdrich</p>
+        <a href="https://www.soarnorthcountry.com/images/upload/fleur-erdrich.pdf"><flux:button>Read Here</flux:button></a>
     </div>
 </div>
